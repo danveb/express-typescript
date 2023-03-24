@@ -16,6 +16,6 @@ app.get("/express", (req: Request, res: Response) => {
     res.send("Hello Express")
 });
 
-app.listen(port, () => {
+app.listen(port, (): void => {
     console.log(`🔥 Server running at port ${port}`); 
 });

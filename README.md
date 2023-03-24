@@ -1,6 +1,6 @@
 # Node + Express + TypeScript 
 
-This is the main boilerplate for a vanilla Node+Express+TypeScript project. Many of the packages were previously globally installed, but still including them here for educational purposes. 
+This is the main code base for a vanilla Node+Express+TypeScript app. Many of the packages were previously installed globally, but for the sake of documenting, all packages are outlined in this file. 
 
 1. initialize `Node.js`
 
@@ -37,7 +37,8 @@ skipLibCheck: true
 forceConsistentCasingInFileNames: true
 
 "compilerOptions": {
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "rootDir": "./src"
 }
 ```
 
